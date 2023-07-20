@@ -1,0 +1,25 @@
+.service {
+    padding-top: 200px;
+}
+.service-container{
+    padding:64px 0px 44px; 
+}
+.service-box {
+    background: #dadce0;
+    border-radius: 28px;
+    margin-bottom: 20px;
+}
+.service-img {
+    padding-top: 82px;
+}
+.service-img img {
+    max-width: 135px;
+    max-height: 132px;
+}
+.service-name {
+    font-size: 16px;
+    padding-top: 39px;
+    padding-bottom: 24px;
+    font-style: normal;
+    font-weight: 400;
+}
