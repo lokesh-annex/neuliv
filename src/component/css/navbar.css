@@ -1,0 +1,11 @@
+
+/* header css */
+.nav-link {
+  color: var(--buttons-secondary-enabled-text);
+  text-align: center;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 150%;
+}

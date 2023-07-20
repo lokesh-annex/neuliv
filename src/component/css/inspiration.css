@@ -1,0 +1,38 @@
+.design-inspiration{
+    background: var(--background-elevation-03);
+    padding: 200px 0px;
+}
+.logo-container-box {
+    border-radius: 20px;
+    background:var(--background-elevation-01);
+    height: 100px;
+}
+.logo-container-inspiration{
+    padding: 40px 0px;
+}
+.design-library {
+    margin-top: 100px;
+    border: 8.368px solid var(--secondary-enabled-text);
+    border-radius: 16.736px;
+    background: var(--background-elevation-02);
+}
+.design-library-right {
+    display: flex;
+    padding: 0 113px;
+    flex-direction: column;
+    justify-content: center;
+}
+.design-ins-button {
+    margin-top: 40px;
+    text-align: end;
+}
+.design-ins-button a {
+    font-size: 16px;
+    font-style: normal;
+    align-items: center;
+    display: inline-flex;
+    gap: 6.73px;
+    font-weight: 600;
+    line-height: 110%;
+    text-decoration-line: underline;
+}
