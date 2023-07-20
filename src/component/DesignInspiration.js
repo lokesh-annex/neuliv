@@ -6,6 +6,7 @@ import Row from "react-bootstrap/Row";
 import "rc-slider/assets/index.css";
 import "./css/inspiration.css";
 
+
 function Inspiration() {
   return (
     <>
@@ -40,7 +41,9 @@ function Inspiration() {
               </Col>
             </Row>
             <div className="design-library">
-              <Col sm={7} xs={12}></Col>
+              <Col sm={7} xs={12}>
+                
+              </Col>
               <Col sm={5} xs={12}>
                 <div className="design-library-right">
                 <div className="info-heading">

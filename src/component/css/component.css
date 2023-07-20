@@ -11,6 +11,7 @@
   --paragraph-taxt-color:#6A6868;
   --xs:8px;
   --regular:16px;
+  --large:32px
 }
 body {
   font-family: "Roboto", sans-serif;
@@ -44,6 +45,10 @@ h3 {
   font-size: 32px;
   font-weight: 400;
   margin-bottom: 24px;
+}
+h4{
+  font-size: 24px;
+font-weight: 400;
 }
 /* heading */
 .sub-heading-sec{
@@ -84,7 +89,10 @@ margin-bottom: 32px;
   border-radius: 30px;
   padding: var(--xs) var(--regular);
 }
-
+a.btn-primary{
+  color: #fff;
+  padding: var(--xs) var(--regular);
+}
 /* media query css */
 @media (min-width: 1400px) {
   .container {
