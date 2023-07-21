@@ -1,11 +1,39 @@
 
-/* header css */
+/* navbar css */
+.menu-bar .bg-body-tertiary {
+  background-color: var(--background-elevation-01);
+  padding: 16px 48px;
+  border-radius: 50px;
+  top: 44px;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: 0 24px;
+  max-width: 1392px;
+  margin: auto;
+}
+.right-menu {
+  display: flex;
+  align-items: center;
+}
 .nav-link {
   color: var(--buttons-secondary-enabled-text);
   text-align: center;
-  font-family: Roboto;
   font-size: 16px;
   font-style: normal;
   font-weight: 600;
   line-height: 150%;
+  padding: var(--xs, 8px) var(--regular, 16px);
+  margin: 0 12px;
+}
+.btn-primary.nav-link {
+  font-weight: 500;
+  margin-right: 0;
+  padding: var(--regular) var(--large) !important;
+}
+.navbar-expand-lg .navbar-nav {
+  align-items: center;
+}
+.navbar-expand-lg .navbar-collapse {
+  justify-content: center;
 }

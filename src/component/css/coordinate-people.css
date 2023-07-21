@@ -1,0 +1,15 @@
+.coordinate-people .heading-sec {
+    max-width: 900px;
+}
+.coordinate-people .sub-heading-sec {
+    max-width: 650px;
+}
+.video-section-main{
+    position: relative;
+}
+.coordinate-people .start-designing-button {
+    position: absolute;
+   
+    left: 0;
+    bottom: 50px;
+}

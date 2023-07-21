@@ -7,9 +7,7 @@ function Header() {
   return (
     <>
      <Navbar/>
-     neuliv's 4 easy steps to transformation
-
-     Convert  
+     
     </>
   );
 }
