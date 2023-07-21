@@ -9,14 +9,17 @@ import Slider from "./component/Slider.js";
 import InteriorDesign from "./component/InteriorDesign";
 import LoveSpcae from "./component/LoveSpace";
 import CoordinatePeople from "./component/CoordinatePeople";
+import MoodboardPopup from "./component/CoordinatePeople";
+
 function App() {
   return (
     <>
       <Header />
-      <Slider/>
-      <InteriorDesign/>
-      <LoveSpcae/>
-      <CoordinatePeople/>
+      <Slider />
+      <MoodboardPopup />
+      <InteriorDesign />
+      <LoveSpcae />
+      <CoordinatePeople />
       <DesignInspiration />
       <Service />
       <Budget />

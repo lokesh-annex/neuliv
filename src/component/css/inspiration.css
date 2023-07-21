@@ -17,6 +17,9 @@
     border: 8.368px solid var(--secondary-enabled-text);
     border-radius: 16.736px;
     background: var(--background-elevation-02);
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
 }
 .design-library-right {
     display: flex;
@@ -37,4 +40,48 @@
     font-weight: 600;
     line-height: 110%;
     text-decoration-line: underline;
+}
+
+.heart-icon {
+    position: absolute;
+    bottom: 8px;
+    right: 8px;
+}
+.cr-image {
+    position: relative;
+    margin-bottom: 18px;
+}
+.cr-image.sec {
+    margin: 0;
+}
+.owl-carousel.owl-theme .owl-nav button.owl-prev, .owl-carousel.owl-theme .owl-nav button.owl-next, .owl-carousel.owl-theme button.owl-dot {
+    width: 47px;
+    height: 47px;
+    background:var(--theme-color);
+    border-radius: 100%;
+    color: #fff;
+    font-size: 31px;
+}
+.owl-carousel.owl-theme .owl-nav button.owl-prev {
+    position: absolute;
+    left: 0;
+    top:45%;
+    transform: rotate(180deg);
+}
+.owl-carousel.owl-theme .owl-nav button.owl-next {
+    position: absolute;
+    right: 0;
+    top:45%;
+}
+.owl-carousel.owl-theme  .owl-nav {
+    margin-top: 0;
+ 
+}
+.design-inspiration .owl-dots {
+    display: none;
+}
+.heart-icon path {
+    fill: #fff;
+    fill-opacity: 1;
+    stroke: #fff;
 }
