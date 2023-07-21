@@ -40,6 +40,7 @@ h2 {
   font-size: 64px;
   font-weight: 400;
   margin-bottom: 0px;
+  line-height: 64px;
 }
 h3 {
   font-size: 32px;
@@ -50,13 +51,26 @@ h4{
   font-size: 24px;
 font-weight: 400;
 }
+.gray-color{
+  color: var(--paragraph-taxt-color);
+}
 /* heading */
 .sub-heading-sec{
   font-size: 20px;
   font-weight: 400;
+  max-width: 470px;
 }
 .sub-heading-break {
   display: block;
+}
+.heading-sec {
+  margin-bottom: 16px;
+}
+.sub-heading-sec span.font-diff{
+  color: var(--paragraph-taxt-color);
+  font-family: "Playfair Display", serif;
+  font-size: 20px;
+  font-style: italic;
 }
 /*  info heading */
 .info-heading {

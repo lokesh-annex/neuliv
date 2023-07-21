@@ -6,11 +6,17 @@ import Service from "./component/Service";
 import Budget from "./component/Budget";
 import DesignInspiration from "./component/DesignInspiration";
 import Slider from "./component/Slider.js";
+import InteriorDesign from "./component/InteriorDesign";
+import LoveSpcae from "./component/LoveSpace";
+import CoordinatePeople from "./component/CoordinatePeople";
 function App() {
   return (
     <>
       <Header />
       <Slider/>
+      <InteriorDesign/>
+      <LoveSpcae/>
+      <CoordinatePeople/>
       <DesignInspiration />
       <Service />
       <Budget />
