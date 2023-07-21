@@ -2,6 +2,7 @@ import React from "react";
 import arrow from "./images/black-arrow.svg";
 import Col from "react-bootstrap/Col";
 import Container from "react-bootstrap/Container";
+import Carousel from "./Carousel.js";
 import Row from "react-bootstrap/Row";
 import "rc-slider/assets/index.css";
 import "./css/inspiration.css";
@@ -42,7 +43,7 @@ function Inspiration() {
             </Row>
             <div className="design-library">
               <Col sm={7} xs={12}>
-                
+           <Carousel/>
               </Col>
               <Col sm={5} xs={12}>
                 <div className="design-library-right">

@@ -9,7 +9,26 @@ import Row from "react-bootstrap/Row";
 import "./css/slider.css";
 
 function Slide() {
-    const [active, setActive] = useState(false);
+  const SliderImage = [
+    {
+      image: require("../component/images/Process-Step-1.jpg"),
+      heading: "Design Assiss",
+      class:"full-image-sec"
+    },
+    {
+      image: require("../component/images/Process-Step-2.jpg"),
+      heading: "Project Consult",
+    },
+    {
+      image: require("../component/images/Process-Step-3.jpg"),
+      heading: "Curate Project",
+    },
+    {
+      image: require("../component/images/Process-Step-4.jpg"),
+      heading: "Transform Space",
+    },
+  ];
+  const [active, setActive] = useState(false);
 
   const handleMouseOver = () => {
     setActive(true);
@@ -27,7 +46,7 @@ function Slide() {
               <div className="slider-left">
                 <h4> neuliv's 4 easy steps to transformation </h4>
                 <div className="slider-info-heading">
-                  Convert{" "}
+                  Convert
                   <span className="slider-info-heading-font"> ideas </span>
                   to concepts
                 </div>
@@ -38,22 +57,29 @@ function Slide() {
             </Col>
             <Col sm={9} xs={12}>
               <div className="slider-right">
-                <div className="slide-image-sec full-image-sec">
-                  <img src={bgOne} className="web-logo" alt="serviceImg" />
-                  <div className="image-design-num"> <span>1/</span>Design Assisst</div>
-                </div>
-                <div className="slide-image-sec two">
+                {SliderImage.map((item, index) => (
+                  <div className="slide-image-sec">
+                   
+                    <img className="img-fluid" src={item.image} alt="image" />
+                    <div className="image-design-num">
+                   
+                      <span>{index+1}/</span>   {item.heading}
+                    </div>
+                  </div>
+                ))}
+
+                {/* <div className="slide-image-sec .default">
                   <img src={bgTwo} className="web-logo" alt="serviceImg" />
                   <div className="image-design-num"> 2/ Project Consult</div>
                 </div>
                 <div className="slide-image-sec three">
                   <img src={bgThree} className="web-logo" alt="serviceImg" />
-                  <div className="image-design-num"> 1/ Curate Project</div>
+                  <div className="image-design-num"> 3/ Curate Project</div>
                 </div>
                 <div className="slide-image-sec four">
                   <img src={bgFour} className="web-logo" alt="serviceImg" />
-                  <div className="image-design-num"> 1/ Transform Space</div>
-                </div>
+                  <div className="image-design-num"> 3/ Transform Space</div>
+                </div> */}
               </div>
             </Col>
           </Row>
