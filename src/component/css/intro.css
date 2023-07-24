@@ -1,0 +1,20 @@
+.intro-page-container .col-sm-6{
+    position: relative;
+}
+.intro-page {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 210px;
+    margin: auto;
+    z-index: 9;
+}
+.intro-page-container .sub-heading-sec {
+    max-width: 540px;
+}
+.factory-video source{
+    width: 100%;
+}
+.factory-video {
+    width: 100%;
+}

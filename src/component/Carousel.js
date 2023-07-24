@@ -14,9 +14,26 @@ import 'owl.carousel/dist/assets/owl.theme.default.css';
 function Carousel() {
   const [show, setShow] = React.useState();
   console.warn(setShow)
+  const CarouselImage = [
+    {
+      image: require("../component/images/design-bg-1"),
+      image: require("../component/images/design-bg-2"),
+    },
+    {
+      image: require("../component/images/design-bg-3"),
+      image: require("../component/images/design-bg-4"),
+
+    },
+    {
+      image: require("../component/images/design-bg-1"),
+      image: require("../component/images/design-bg-5"),
+
+    },
+  ];
   return (
     <>
       <OwlCarousel items={3} className="owl-theme" navText="➜➜" nav margin={8}>
+        
        <div className="item">
           <div className="cr-image">
             <img src={designbg1} alt="carousel-image" />

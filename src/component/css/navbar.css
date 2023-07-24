@@ -37,3 +37,6 @@
 .navbar-expand-lg .navbar-collapse {
   justify-content: center;
 }
+.btn-primary.nav-link:focus, .btn-primary.nav-link:hover {
+  color: #fff;
+}

@@ -49,7 +49,7 @@
 }
 .image-design-num span {
     font-size: 16px;
-    line-height: 40px;
+    line-height: 22px;
     font-weight: 600;
 }
 .full-image-sec {
@@ -69,4 +69,10 @@
     width: 100%;
     justify-content: flex-end;
     transform: rotate(0deg);
+}
+.slide-image-sec .img-fluid {
+    max-width: initial;
+}
+.full-image-sec .image-design-num span{
+     line-height: 40px;
 }
