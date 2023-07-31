@@ -141,6 +141,14 @@ input{
 .white-color a{
   color: #fff;
 }
+/* video */
+.video-section {
+  margin: 36px 0px;
+}
+/* end */
+.mb-100{
+  margin-bottom: 100px;
+}
 /* media query css */
 @media (min-width: 1400px) {
   .container {

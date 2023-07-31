@@ -9,6 +9,7 @@
 .footer-top {
     border-bottom: 1px solid #767572;
     padding-left:35px;
+    padding-bottom: 63px;
 }
 .footer-logo-icon{
     margin-bottom: 9px;
@@ -28,7 +29,7 @@
 .footer-menu ul li a {
     color: var(--secondary-enabled-text);
     padding: 3px 0px;
-    font-weight: 400;
+    font-weight: 300;
 }
 .footer-bottom {
     padding: 9px 35px 13px;

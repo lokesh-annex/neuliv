@@ -1,5 +1,6 @@
 import React, { useState } from "react";
-import animation from "./images/animation-frame-2.svg";
+// import animation from "./images/animation-frame-2.svg";
+import placeholder from "./images/Placeholder-GIF.jpg";
 import arrow from "./images/arrow.svg";
 // import Col from "react-bootstrap/Col";
 import Container from "react-bootstrap/Container";
@@ -27,7 +28,7 @@ function CoordinatePeople() {
           <Row>
             <div className="video-section-main">
             <div className="video-section text-center">
-              <img src={animation} className="web-logo" alt="serviceImg" />
+              <img src={placeholder} className="web-logo" alt="serviceImg" />
             </div>
             <div className="start-designing-button d-flex">
               <a className="btn-primary" href="">

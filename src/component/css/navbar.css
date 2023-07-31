@@ -11,6 +11,7 @@
   margin: 0 24px;
   max-width: 1392px;
   margin: auto;
+  z-index: 99;
 }
 .right-menu {
   display: flex;
@@ -40,3 +41,18 @@
 .btn-primary.nav-link:focus, .btn-primary.nav-link:hover {
   color: #fff;
 }
+
+.menu-bar.black .bg-body-tertiary {
+  background-color: var(--secondary-enabled-text) !important;
+  transition: all ease 0.4s;
+}
+.menu-bar.black .nav-link {
+  color: #fff;
+}
+.menu-bar.black .btn-primary {
+  background: #D86771;
+}
+
+.animation-menu .menu-bar.black .bg-body-tertiary {
+  top: -100px;
+}  
