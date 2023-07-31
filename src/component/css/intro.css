@@ -1,0 +1,50 @@
+.intro-page-container .col-sm-6{
+    position: relative;
+}
+.intro-page {
+    position: relative;
+    left: 0;
+    right: 0;
+    /* top: 210px; */
+    margin: auto;
+    z-index: 9;
+    transition: all ease 1s;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+.intro-page-container .sub-heading-sec {
+    max-width: 540px;
+}
+.factory-video source{
+    width: 100%;
+}
+.factory-video {
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    z-index: -1;
+   
+}
+.intro-page-container .col-sm-6 {
+    overflow: hidden;
+}
+.skip-btn {
+    display: none;
+    position: absolute;
+    right: 60px;
+    bottom: 30px;
+}
+.animation-menu .skip-btn {
+    display: flex;
+}
+.animation-menu .intro-page{
+    left: -570px;
+
+} 
+

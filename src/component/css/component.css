@@ -9,6 +9,7 @@
   --buttons-primary: #A4046E;
   --text-default-color:#4A4848;
   --paragraph-taxt-color:#6A6868;
+  --input-border:#CDCDCD;
   --xs:8px;
   --regular:16px;
   --large:32px
@@ -35,6 +36,11 @@ a {
 .h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
   color: var(--secondary-enabled-text);
   line-height: normal;
+}
+h1{
+  font-size: 86px;
+font-style: normal;
+font-weight: 400;
 }
 h2 {
   font-size: 64px;
@@ -103,9 +109,45 @@ margin-bottom: 32px;
   border-radius: 30px;
   padding: var(--xs) var(--regular);
 }
+.btn-primary img,a .btn-primary img{
+  transition: all ease 0.4s;
+  left:0px;
+  position: relative;
+}
+
+.btn-primary:hover img,a .btn-primary:hover img{
+  left:6px;
+}
 a.btn-primary{
   color: #fff;
   padding: var(--xs) var(--regular);
+}
+input{
+  border: none;
+  border-bottom: 1px solid var(--input-border);
+  background: var(--background-elevation-01);
+  display: flex;
+  height: 44px;
+  padding: 14px 16px;
+  align-items: center;
+  width: 100%;
+  gap: 10px;
+  align-self: stretch;
+  box-shadow: none;
+}
+.white-color{
+  color: #fff;
+}
+.white-color a{
+  color: #fff;
+}
+/* video */
+.video-section {
+  margin: 36px 0px;
+}
+/* end */
+.mb-100{
+  margin-bottom: 100px;
 }
 /* media query css */
 @media (min-width: 1400px) {

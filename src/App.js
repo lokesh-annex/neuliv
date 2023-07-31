@@ -1,29 +1,29 @@
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./component/css/component.css";
-import Header from "./component/Header.js";
-import Footer from "./component/Footer.js";
-import Service from "./component/Service";
-import Budget from "./component/Budget";
-import DesignInspiration from "./component/DesignInspiration";
-import Slider from "./component/Slider.js";
-import InteriorDesign from "./component/InteriorDesign";
-import LoveSpcae from "./component/LoveSpace";
-import CoordinatePeople from "./component/CoordinatePeople";
-import MoodboardPopup from "./component/CoordinatePeople";
+import { Routes, Route, BrowserRouter } from "react-router-dom"
 
+import Index from "./component/Home.js";
+import Intro from "./component/Intro.js";
 function App() {
   return (
     <>
-      <Header />
-      <Slider />
-      <MoodboardPopup />
-      <InteriorDesign />
-      <LoveSpcae />
-      <CoordinatePeople />
-      <DesignInspiration />
-      <Service />
-      <Budget />
-      <Footer />
+    <BrowserRouter>
+    
+       <Routes>
+         <Route exact path="/" element={<Intro/>} />
+         <Route  path="/index" element={<Index/>} />
+         <Route exact path="/intro" element={<Intro/>} />
+         {/* <Route exact path="/page-register" element={<PageRegister/>} />
+         <Route exact path="/forgot-password" element={<ForgotPassword/>} />
+         <Route exact path="/payments" element={<Payments/>} />
+         <Route exact path="/profile" element={<Profile/>} />
+         <Route exact path="/project" element={<Project/>} />
+         <Route exact path="/inspirations" element={<Inspirations/>} />  */}
+         
+        
+       </Routes>
+      
+     </BrowserRouter>
     </>
   );
 }

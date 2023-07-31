@@ -46,6 +46,7 @@
     position: absolute;
     bottom: 8px;
     right: 8px;
+    cursor: pointer;
 }
 .cr-image {
     position: relative;
@@ -84,4 +85,24 @@
     fill: #fff;
     fill-opacity: 1;
     stroke: #fff;
+}
+
+
+.modal-dialog {
+    max-width: 724px;
+}
+  
+.modal-content{
+    padding: 44px;
+    border-radius: 20px;
+    border: 1px solid var(--strokes-elevation-03, #6A6868);
+    background: var(--background-elevation-02, #EDEAE4);
+    
+    /* Shadow / Small */
+    box-shadow: 0px 20px 20px 0px rgba(0, 0, 0, 0.08), 0px 0px 2px 0px rgba(0, 0, 0, 0.12);
+    }
+.cross-btn{
+    position: absolute;
+    right: 35px;
+    top: 35px;
 }

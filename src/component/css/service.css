@@ -5,21 +5,56 @@
     padding:64px 0px 44px; 
 }
 .service-box {
-    background: #dadce0;
+  
     border-radius: 28px;
     margin-bottom: 20px;
 }
 .service-img {
-    padding-top: 82px;
+    height: 291px;
+    position: relative;
+    cursor: pointer;
+    overflow: hidden;
+    border-radius: 28px;
 }
 .service-img img {
-    max-width: 135px;
-    max-height: 132px;
+    height: 100%;
+    object-fit: cover;
+    width: 100%;
+    object-position: center;
 }
+/* .service-img:after{
+    content: '';
+    position: absolute;
+    left: 0;
+    right: 0;
+    width: 100%;
+    top: 0;
+    height: 100%;
+    background: linear-gradient(0deg, rgba(231, 215, 201, 0.30) 0%, rgba(231, 215, 201, 0.30) 100%);
+} */
+
+
 .service-name {
     font-size: 16px;
-    padding-top: 39px;
+    padding-top: 16px;
     padding-bottom: 24px;
-    font-style: normal;
-    font-weight: 400;
+    font-weight: 600;
+}
+
+.service-box.active .service-img{
+    border: 3px solid var(--theme-color);
+}
+
+.service-category .service-box.active .service-img::after{
+content: "";
+position: absolute;
+top: 12px;
+height: 24px;
+width: 24px;
+z-index: 999;
+left: 12px;
+border-radius: 100%;
+background: var(--theme-color) url(../images/tick.svg);
+background-repeat: no-repeat;
+background-position: center center;
 }
